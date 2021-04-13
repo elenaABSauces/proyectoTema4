@@ -40,17 +40,76 @@
                 </div>  
             </div>
         </header>
-
         <main>
             <div>
+                <table>
+                <tr>
+                    <td>Script CreaDAW216DBDepartamentos</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td><a href="scriptDB/CreaDAW216.sql"><img src="webroot/images/descargar.png"  width="30px"></a></td>
+                    <td><a href="mostrarcodigo/muestraScriptCreaDAW216.php"><img src="webroot/images/mostrar.png"  width="30px"></a></td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td><a href="scriptDB/crear.php"><img src="webroot/images/ejecutar.png" width="30px"></a></td>
+                    <td><a href="mostrarcodigo/muestraCrear1and1.php"><img src="webroot/images/mostrar.png"  width="30px"></a></td>
+                </tr>
+                <tr>
+                    <td>Script CargaInicialDAW216DBDepartamentos</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td><a href="scriptDB/CargaInicialDAW216.sql"><img src="webroot/images/descargar.png"  width="30px"></a></td>
+                    <td><a href="mostrarcodigo/muestraScriptCargaInicialDAW216.php"><img src="webroot/images/mostrar.png"  width="30px"></a></td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td><a href="scriptDB/CargaInicial.php"><img src="webroot/images/ejecutar.png"  width="40px"></a></td>
+                    <td><a href="mostrarcodigo/muestraCargaInicial1and1.php"><img src="webroot/images/mostrar.png"  width="30px"></a></td>
+                </tr>
+                <tr>
+                    <td>Script BorraDAW216DBDepartamentos</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td><a href="scriptDB/BorraDAW216.sql"><img src="webroot/images/descargar.png"  width="30px"></a></td>
+                    <td><a href="mostrarcodigo/muestraScriptBorraDAW216.php"><img src="webroot/images/mostrar.png"  width="30px"></a></td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td><a href="scriptDB/Borrar.php"><img src="webroot/images/ejecutar.png"  width="30px"></a></td>
+                    <td><a href="mostrarcodigo/muestraBorrar1and1.php"><img src="webroot/images/mostrar.png"  width="30px"></a></td>
+                </tr>
+             
+                <tr>
+                    <th>Archivos de configuración</th>
+                    <th>Mostrar</th>
+                </tr>
+                <tr>
+                    <td>confDBMySQLi.php</td>
+                    <td><a href="mostrarcodigo/muestraConfigPDOmysqli.php"><img src="webroot/images/mostrar.png"  width="30px"></a></td>
+                </tr>
+                <tr>
+                    <td>confDBPDO.php</td>
+                    <td><a href="mostrarcodigo/muestraCargaInicial1and1.php"><img src="webroot/images/mostrar.png"  width="30px"></a></td>
+                </tr>
+                </table>
                 <table class="content"> 
             <tr>
-                <th></th>
+                <th>EJERCICIOS</th>
                 <th>Ejecutar</th>
                 <th>Mostrar</th>
             </tr>
             <tr>
-                <td>01.Conexión a la base de datos con la cuenta usuario y tratamiento de errores.</td>
+                <td class="enunciado">01.Conexión a la base de datos con la cuenta usuario y tratamiento de errores.</td>
                 <td></td>
                 <td></td>
             </tr>
@@ -61,11 +120,11 @@
             </tr>
             <tr>
                 <td>MYSQLI</td>
-                <td><a href="codigoPHP/ejercicio01mysqli.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
+                <td></td>
                 <td><a href="mostrarcodigo/muestraEjercicio01mysqli.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
             </tr> 
             <tr>
-                <td>2.Mostrar el contenido de la tabla Departamento y el número de registros</td>
+                <td class="enunciado">2.Mostrar el contenido de la tabla Departamento y el número de registros</td>
                 <td></td>
                 <td></td>
             </tr>
@@ -77,11 +136,11 @@
             </tr>
             <tr>
                 <td>MYSQLI</td>
-                <td><a href="codigoPHP/ejercicio02mysqli.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
+                <td></td>
                 <td><a href="mostrarcodigo/muestraEjercicio02mysqli.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
             </tr>
             <tr>
-                <td>03.Formulario para aÃ±adir un departamento a la tabla Departamento con validación de entrada y control de errores.</td>
+                <td class="enunciado">03.Formulario para añadir un departamento a la tabla Departamento con validación de entrada y control de errores.</td>
                 <td></td>
                 <td></td>
                 
@@ -94,11 +153,11 @@
             </tr>
             <tr>
                 <td>MYSQLI</td>
-                <td><a href="codigoPHP/ejercicio03mysqli.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
+                <td></td>
                 <td><a href="mostrarcodigo/muestraEjercicio03mysqli.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
             </tr>
             <tr>
-                <td>04.Formulario de búsqueda de departamentos por descripción (por una parte del campo DescDepartamento, si el usuario no pone nada deben aparecer todos los departamentos).</td>
+                <td class="enunciado">04.Formulario de búsqueda de departamentos por descripción (por una parte del campo DescDepartamento, si el usuario no pone nada deben aparecer todos los departamentos).</td>
                 <td></td>
                 <td></td>
             </tr>
@@ -109,15 +168,15 @@
                 
             </tr><!-- comment -->
             <tr>
-                <td>MYSQLI</td>
-                <td><a href="codigoPHP/ejercicio04mysqli.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
+                <td >MYSQLI</td>
+                <td></td>
                 <td><a href="mostrarcodigo/muestraEjercicio04mysqli.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
             </tr>
             <tr>
-                <td>05.Pagina web que añade tres registros a nuestra tabla Departamento utilizando tres instrucciones
-                    insert y una transacción, de tal forma que se añadan los tres registros o no se añada ninguno.</td>
-                <td><a href="codigoPHP/ejercicio05mysqli.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio05mysqli.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
+                <td class="enunciado">05.Pagina web que añade tres registros a nuestra tabla Departamento utilizando tres instrucciones
+                    insert y una transacción, de tal forma que se añadan los tres registros o no se añada ninguno.</td>   
+                <td></td>
+                <td></td>
                 
             </tr>
             <tr>
@@ -125,32 +184,44 @@
                 <td><a href="codigoPHP/ejercicio05PDO.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
                 <td><a href="mostrarcodigo/muestraEjercicio05PDO.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
                 
-            </tr><!-- comment -->
-            <tr>
-                <td>MYSQLI</td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
-                <td>06.Pagina web que cargue registros en la tabla Departamento desde un array departamentosnuevos
+                <td class="enunciado">06.Pagina web que cargue registros en la tabla Departamento desde un array departamentosnuevos
                     utilizando una consulta preparada</td>
-                <td><a href="codigoPHP/ejercicio06mysqli.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio06mysqli.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
+                <td></td>
+                <td></td>
                 
             </tr>
             <tr>
                 <td>PDO</td>
-                <td><a href="codigoPHP/ejercicio06PDO.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
+                <td><a href="codigoPHP/ejercicio05PDO.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
                 <td><a href="mostrarcodigo/muestraEjercicio06PDO.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
                
             </tr>
             <tr>
-                <td>MYSQLI</td>
+                <td class="enunciado">07. Página web que toma datos (código y descripción) de un fichero xml y los añade a la tabla Departamento de nuestra base de datos. (IMPORTAR). El fichero importado se encuentra en el directorio .../tmp/ del servidor</td>
                 <td></td>
                 <td></td>
             </tr>
-        </table>
-            </div>
+            <tr>
+                <td>PDO</td>
+                <td><a href="codigoPHP/ejercicio07PDO.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio07PDO.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
+            </tr>
+            <tr>
+                <td class="enunciado">08. Página web que toma datos (código y descripción) de la tabla Departamento y guarda en un fichero departamento.xml. (COPIA DE SEGURIDAD / EXPORTAR). El fichero exportado se encuentra en el directorio .../tmp/ del servidor.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>PDO</td>
+                <td><a href="codigoPHP/ejercicio08PDO.php"><img src="webroot/images/ejecutar.png" width="30" height="30"/></a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio08PDO.php"><img src="webroot/images/mostrar.png" width="30" height="30"/></a></td>
+            </tr>
+
+
+            </table>
+        </div>
         </main>
 
         <footer>
