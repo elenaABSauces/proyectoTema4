@@ -20,6 +20,16 @@ nav ul{
     text-decoration:none;
 }
 
+table, th, td {
+    font-family: 'Varela Round', sans-serif;
+    padding: 10px;
+    margin: auto;
+}
+
+th{
+    text-align:left;
+}
+
 nav ul li a{
     text-decoration:none;
     color:black;
@@ -40,12 +50,17 @@ body{
     color:#446688;
     font-size: 22px;
     bottom:50%;
-    text-align:center;
 }
 
-.subjects p{
-    font-weight: bold;
+
+table{
+    width: 90%;
+    font-size: 22px;
+    text-align: center;
+    padding-right: 30%;
+    vertical-align: middle;
 }
+
 
 footer{
     width:100%;

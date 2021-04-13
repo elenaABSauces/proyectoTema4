@@ -1,5 +1,5 @@
 <?php
-    echo '<h2>ejercicio05PDO.php</h2>';
-    highlight_file("../codigoPHP/ejercicio05PDO.php");
+    echo "<h3>Código ejercicio05PDO.php</h3>";
+    highlight_file('../codigoPHP/ejercicio05PDO.php');
 ?>
 
